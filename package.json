@@ -1,0 +1,31 @@
+{
+  "name": "shopfacil",
+  "version": "1.0.0",
+  "description": "Fornece integração à API de boleto bancário Bradesco ShopFácil.",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "./node_modules/.bin/coffee -c ./lib/",
+    "build": "npm run prepublishOnly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regissoares/node-shopfacil.git"
+  },
+  "author": "Régis Soares <regis@regissoares.com>",
+  "license": "MIT",
+  "keywords": [
+    "bradesco",
+    "shopfacil",
+    "boleto"
+  ],
+  "bugs": {
+    "url": "https://github.com/regissoares/node-shopfacil/issues"
+  },
+  "homepage": "https://github.com/regissoares/node-shopfacil",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.4.1"
+  }
+}
